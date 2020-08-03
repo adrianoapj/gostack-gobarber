@@ -2,3 +2,5 @@ node_modules/
 dist/
 tmp/*
 !tmp/.gitkeep
+uploads/*
+!uploads/.gitkeep
