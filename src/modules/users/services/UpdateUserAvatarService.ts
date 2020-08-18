@@ -26,7 +26,7 @@ class UpdateUserAvatarService {
     const user = await this.usersRepository.findById(user_id);
 
     if (!user) {
-      throw new AppError('This is user does not exists', 401);
+      throw new AppError('This user does not exists', 401);
     }
 
     if (user.avatar) {
