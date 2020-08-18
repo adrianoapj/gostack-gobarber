@@ -4,3 +4,6 @@ tmp/*
 !tmp/.gitkeep
 uploads/*
 !uploads/.gitkeep
+
+ormconfig.json
+.env
